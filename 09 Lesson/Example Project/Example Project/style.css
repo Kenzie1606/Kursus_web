@@ -1,0 +1,82 @@
+nav>div>ul>li>a{
+	width: 150px;
+	font-size: 12pt;
+	text-align: center;
+}
+
+.logo{
+	 height: 30px;
+	 width: auto;
+	 margin-top: -5px;
+}
+
+.carouselMargin{
+	margin-top: -20px;
+}
+
+.justifyText{
+	text-align: justify;
+}
+
+.ageGroupTitle{
+	color: white;
+	font-size: 18pt;
+	text-align: center;
+	padding: 20px;
+	font-weight: bold;
+}
+
+.descriptionBox{
+	font-weight: bold;
+	color: white;
+}
+
+.pink{
+	color: #e26ded;
+}
+
+.blue{
+	color: #7db4e8;
+}
+
+.orange{
+	color: orange;
+}
+
+footer {
+	margin-top: 4em;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	background-color: #494949;
+	text-align: center;
+	color:#fff;
+	height: 70px;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+    color: #4099FF;
+}
+
+.fa-facebook {
+    color: #3B5998;
+}
+
+.fa-instagram {
+	color: #ee42f4;
+}

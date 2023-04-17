@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contoh Triggers & Functions</title>
+  </head>
+  <body>
+    <input class="button" type="submit" value="Click me to show an alert!" onclick="example1()" />
+    <input class="button" type="submit" value="Click me to show something on the console log!" onclick="example2()" />
+    <input class="button" type="submit" value="Click me to show something below!" onclick="example3()" />
+
+    <div id="test"></div>
+
+    <script>
+      function example1() {
+        alert("hi there!");
+      }
+
+      function example2() {
+        console.log("Why, hello there again!");
+      }
+
+      function example3() {
+        document.getElementById("test").innerHTML = "Yooo Hi again! Nice to meet you!";
+      }
+    </script>
+  </body>
+</html>

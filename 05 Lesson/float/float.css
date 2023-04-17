@@ -1,0 +1,24 @@
+body{
+    background-color: #007288;
+}
+
+.box{
+    background-color: white;
+    width: 90%;
+    height: 200px;
+    display: block;
+    text-align: center;
+    border-style: solid;
+}
+
+.box2{
+    background-color: white;
+    width: 90%;
+    height: 200px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-style: dashed;
+}
+

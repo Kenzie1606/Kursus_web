@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Pendaftaran</title>
+</head>
+
+<body>
+	<h2>Form Pendaftaran</h2>
+	<form action="proses_pendaftaran.php" method="POST">
+		<label for="nama_lengkap">Nama lengkap:</label>
+		<input type="text" id="nama_lengkap" name="nama_lengkap" required><br><br>
+		
+		<label for="jenis_kelamin">Jenis kelamin:</label>
+		<input type="radio" id="laki_laki" name="jenis_kelamin" value="Laki-laki" required>
+		<label for="laki_laki">Laki-laki</label>
+		<input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan" required>
+		<label for="perempuan">Perempuan</label><br><br>
+		
+		<label for="tanggal_lahir">Tanggal lahir:</label>
+		<input type="date" id="tanggal_lahir" name="tanggal_lahir" required><br><br>
+		
+		<label for="alamat">Alamat:</label>
+		<textarea id="alamat" name="alamat" rows="4" cols="30" required></textarea><br><br>
+		
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required><br><br>
+		
+		<label for="telepon">Telepon:</label>
+		<input type="tel" id="telepon" name="telepon" required><br><br>
+		
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password" required><br><br>
+		
+		<label for="konfirmasi_password">Konfirmasi password:</label>
+		<input type="password" id="konfirmasi_password" name="konfirmasi_password" required><br><br>
+		
+		<label for="minat">Minat:</label>
+		<select id="minat" name="minat">
+			<option value="Teknologi">Teknologi</option>
+			<option value="Olahraga">Olahraga</option>
+			<option value="Musik">Musik</option>
+		</select><br><br>
+		
+		<label for="pengalaman">Pengalaman:</label>
+		<input type="checkbox" id="pengalaman" name="pengalaman[]" value="Pernah belajar programming">
+		<label for="pengalaman">Pernah belajar programming</label>
+		<input type="checkbox" id="pengalaman" name="pengalaman[]" value="Pernah mengikuti hackathon">
+		<label for="pengalaman">Pernah mengikuti hackathon</label><br><br>
+		
+		<input type="submit" value="Daftar">
+		<input type="reset" value="Reset">
+	</form>
+</body>
+</html>

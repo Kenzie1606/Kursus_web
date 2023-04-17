@@ -1,0 +1,26 @@
+body{
+    background-color: #00a6fb;
+}
+
+#title1{
+    background-color: #9f838c;
+    display: block;
+}
+
+#samplediv{
+    background-color: #816f68;
+    height: 300px;
+    width: 60%;
+}
+
+#otherdiv{
+    background-color: #474647;
+    display: inline-block;
+    height: 50%;
+    width: 50%;
+}
+
+.inline{
+    display: inline-block;
+    background-color: red;
+}
